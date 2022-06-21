@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Robot", sans-serif;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    width: 375px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
+header {
+    background-color: #1a456e;
+    height: 66px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+
+}
+main{
+    padding: 24px;
+    
+}
+label{
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+select{
+    margin-top: 6px;
+    margin-bottom: 24px;
+    display: block;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    
+}
+input{
+    margin-top: 6px;
+    margin-bottom: 24px;
+    display: block;
+    font-size: 18px;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 302px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    outline: none;
+    padding: 16px;
+}
+button{
+    margin-top: 24px;
+    margin-bottom: 36px;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+    background: #1B83E2;
+    border-radius: 25px;
+    color: #F4F4F4;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.7;
+}
+section{
+    width: 327px;
+    height: 285px;
+    left: 24px;
+    top: 458px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    background-image: url("./assets/image/background.jpg");
+
+}
+.currency-container{
+    text-align: center;
+    padding: 10px;
+}
+.currency-name{
+    color: #777777;;
+}
+.exchange-value{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #132638;
+
+}
+.vetor{
+    display: block;
+    margin: 0 auto;
+    }
+p{
+    padding: 2px;
+    background-color: #BBBBBB;
+    opacity: 0.9;
+}
